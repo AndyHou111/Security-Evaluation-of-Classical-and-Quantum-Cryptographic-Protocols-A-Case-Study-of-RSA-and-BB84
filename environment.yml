@@ -1,0 +1,17 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - qiskit
+  - qiskit-utils
+  - qiskit-algorithms
+  - pycryptodome    
+  - pip             
+  - pip:
+      - random2      
