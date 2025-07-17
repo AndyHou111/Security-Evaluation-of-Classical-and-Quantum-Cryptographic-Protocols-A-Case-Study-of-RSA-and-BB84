@@ -14,3 +14,23 @@ There are **five** relevant python projects in total:
    This is the third experiment in the paper, which estimates QBER for three different QKD channels. 
 
 These codes provide a thorough security analysis of RSA and BB84 and visualize the experimental results in the paper, helping reader to better understand the experimental processes and results. 
+
+The **enviroment requirement** is as follows:
+   name: myenv
+   channels:
+     - conda-forge
+     - defaults
+   dependencies:
+     - python=3.8
+     - numpy
+     - scipy
+     - matplotlib
+     - scikit-learn
+     - qiskit
+     - qiskit-utils
+     - qiskit-algorithms
+     - pycryptodome   
+     - pip
+   # download with pip           
+     - pip:
+         - random2 
