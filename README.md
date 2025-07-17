@@ -16,11 +16,8 @@ There are **five** relevant python projects in total:
 These codes provide a thorough security analysis of RSA and BB84 and visualize the experimental results in the paper, helping reader to better understand the experimental processes and results. 
 
 The **enviroment requirement** is as follows:
-   name: myenv
-   channels:
-     - conda-forge
-     - defaults
-   dependencies:
+   **name: myenv**
+   # download with conda
      - python=3.8
      - numpy
      - scipy
